@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION  3.0.0) #cmake çalışması için yüklü olması gereken minimum cmake sürümü
+set(CMAKE_CXX_STANDARD 17) # C versiyonunu  ayarlıyoruz.
+set(CMAKE_CXX_STANDARD_REQUIRED ON) 
+project(hello VERSION 1.0) #Projeye isim ve versiyon veriyoruz
+add_executable(hello main.c) #hello adında bir yürütülebilir dosya oluşturuyoruz.
