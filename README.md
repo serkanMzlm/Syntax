@@ -1,4 +1,3 @@
-
 # CMake
 - CMakeLists.txt dosyasıdır.
 - Cmake her değişiklik yapıldığında build etmek için `cmake -S . -B build` komutu girilir. Bu kısımda -B  sonra nereye çıkartılıcağını belirtiriz. **deneme/build/** şeklinde.
